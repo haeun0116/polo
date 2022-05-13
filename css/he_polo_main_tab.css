@@ -145,9 +145,10 @@ div.cntWrap>div.content.cnt01>div.section{
     width: 100%;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView{
-    width: calc((100vw - 700px) / 2 + 100%);
-    margin-left: calc((100vw - 700px) / -2);
-    overflow: inherit;
+    width: calc((100vw - 700px) + 100%);
+    margin-left: min(calc((100vw - 700px) / -2), calc((100vw - 90vw) / -2));
+    min-width: calc((100vw - 90vw) / 2 + 100%);
+    overflow: hidden;
     height: 280px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article{

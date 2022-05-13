@@ -46,13 +46,16 @@ div.mainWrap{
     height: 240px;
 }
 div.mainWrap>div.main{
-    padding-top: 80px;
+    padding-top: 120px;
+}
+div.mainWrap .image{
+    height: 240px;
 }
 div.mainWrap>div.main>h2{
     line-height: 40px;
     font-size: 20px;
 }
-div.mainWrap>div.main>div.btn{
+div.mainWrap>div.main>a>div.btn{
     width: calc(100% / 4 );
     line-height: 20px;
     height: 20px;
