@@ -378,7 +378,7 @@ div.cntWrap>div.content.cnt02>div.section{
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView{
     width: calc((100vw - 1080px) / 2 + 100%);
-    margin-left: calc((100vw - 1080px) / -2);
+    margin-left: min(calc((100vw - 1080px) / -2), calc((100vw - 80vw) / -2));
     height: 600px;
     overflow: hidden;
     position: relative;

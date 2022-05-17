@@ -94,11 +94,11 @@ div.navboxWrap>div.navBox>ul.arco>li>h4{
     cursor: not-allowed;
 }
 div.navboxWrap>div.navBox>div.btns{
-    margin-top: 200px;
+    margin-top: 100px;
 }
 div.navboxWrap>div.navBox>div.btns>div.btn{
-    font-size: 25px;
-    line-height: 50px;
+    font-size: 20px;
+    line-height: 30px;
     text-transform: uppercase;
     cursor: not-allowed;
 }
